@@ -1,6 +1,6 @@
 # Effective Go in Traditional Chinese
 
-[Link](https://guesslin.github.io/Effetive_go_zh_tw)
+[Link](https://guesslin.github.io/effective_go)
 
 # 譯者
 
