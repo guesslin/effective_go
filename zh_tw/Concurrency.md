@@ -1,21 +1,20 @@
 Concurrency
 -----------
 
-### Share by communicating {#sharing}
+### Share by communicating
 
-Concurrent programming is a large topic and there is space only for some
-Go-specific highlights here.
+Concurrent programming is a large topic and there is space only for some Go-specific highlights here.
+並發式程式設計是一個龐大的議題並且這裡任然有一些Go專精突出的空間。
 
-Concurrent programming in many environments is made difficult by the
-subtleties required to implement correct access to shared variables. Go
-encourages a different approach in which shared values are passed around
-on channels and, in fact, never actively shared by separate threads of
-execution. Only one goroutine has access to the value at any given time.
-Data races cannot occur, by design. To encourage this way of thinking we
-have reduced it to a slogan:
+Concurrent programming in many environments is made difficult by the subtleties required to implement correct access to shared variables.
+Go encourages a different approach in which shared values are passed around on channels and, in fact, never actively shared by separate threads of execution.
+Only one goroutine has access to the value at any given time.
+Data races cannot occur, by design.
+To encourage this way of thinking we have reduced it to a slogan:
 
-> Do not communicate by sharing memory; instead, share memory by
-> communicating.
+> Do not communicate by sharing memory; instead, share memory by communicating.
+> 不要藉由共用記憶體來溝通，取而代之，藉由溝通來共享記憶體。
+
 
 This approach can be taken too far. Reference counts may be best done by
 putting a mutex around an integer variable, for instance. But as a
