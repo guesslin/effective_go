@@ -7,10 +7,15 @@ Concurrent programming is a large topic and there is space only for some Go-spec
 並發式程式設計是一個龐大的議題並且這裡任然有一些Go專精突出的空間。
 
 Concurrent programming in many environments is made difficult by the subtleties required to implement correct access to shared variables.
+並發式程式設計在許多環境之中是作為艱難的藉由深奧的要求去實作出存取正確的共享變數。
 Go encourages a different approach in which shared values are passed around on channels and, in fact, never actively shared by separate threads of execution.
+Go提出了一種不同的方法，讓共享變數的傳遞透過channels，還有<實際上>從來沒有主動的分享資訊在不同執行緒上。
 Only one goroutine has access to the value at any given time.
+只有一個goroutine會存取到共享變數在任何一個單一給定時間上。
 Data races cannot occur, by design.
+Data races 在設計上是不可能會發生的。
 To encourage this way of thinking we have reduced it to a slogan:
+為了提倡這個思考模式我們必須將其簡化為一句標語：
 
 > Do not communicate by sharing memory; instead, share memory by communicating.
 > 不要藉由共用記憶體來溝通，取而代之，藉由溝通來共享記憶體。
