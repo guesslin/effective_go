@@ -6,7 +6,10 @@ Go 是一種嶄新的語言。
 
 Although it borrows ideas from existing languages,
 it has unusual properties that make effective Go programs different in
-character from programs written in its relatives. A straightforward
+character from programs written in its relatives.
+>`雖然 Go 借鏡了許多既有程式語言，但 Go 程式本身也具有獨特性。`
+
+A straightforward
 translation of a C++ or Java program into Go is unlikely to produce a
 satisfactory result—Java programs are written in Java, not Go. On the
 other hand, thinking about the problem from a Go perspective could
