@@ -11,7 +11,10 @@ character from programs written in its relatives.
 
 A straightforward
 translation of a C++ or Java program into Go is unlikely to produce a
-satisfactory result—Java programs are written in Java, not Go. On the
+satisfactory result—Java programs are written in Java, not Go.
+>`直接以撰寫 C++ 或 Java 程式的思維來寫 Go 程式，恐怕得到的結果。因為 Java 程式是用 Java 寫的，而非 Go 。`
+
+On the
 other hand, thinking about the problem from a Go perspective could
 produce a successful but quite different program. In other words, to
 write Go well, it's important to understand its properties and idioms.
