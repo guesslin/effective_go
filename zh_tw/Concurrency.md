@@ -21,20 +21,19 @@ To encourage this way of thinking we have reduced it to a slogan:
 > 不要藉由共用記憶體來溝通，取而代之，藉由溝通來共享記憶體。
 
 
-This approach can be taken too far. Reference counts may be best done by
-putting a mutex around an integer variable, for instance. But as a
-high-level approach, using channels to control access makes it easier to
-write clear, correct programs.
+This approach can be taken too far.
+這個方法可能會過頭。
+Reference counts may be best done by putting a mutex around an integer variable, for instance.
+舉例來說，參照的計算在藉由變數的互斥保護之下可能會是最佳的。
+But as a high-level approach, using channels to control access makes it easier to write clear, correct programs.
+但是作為一個高階的方法，使用 channel 來控制存取更容易達到撰寫清楚且正確的程式。
 
-One way to think about this model is to consider a typical
-single-threaded program running on one CPU. It has no need for
-synchronization primitives. Now run another such instance; it too needs
-no synchronization. Now let those two communicate; if the communication
-is the synchronizer, there's still no need for other synchronization.
-Unix pipelines, for example, fit this model perfectly. Although Go's
-approach to concurrency originates in Hoare's Communicating Sequential
-Processes (CSP), it can also be seen as a type-safe generalization of
-Unix pipes.
+One way to think about this model is to consider a typical single-threaded program running on one CPU.
+It has no need for synchronization primitives.
+Now run another such instance; it too needs no synchronization.
+Now let those two communicate; if the communication is the synchronizer, there's still no need for other synchronization.
+Unix pipelines, for example, fit this model perfectly.
+Although Go's approach to concurrency originates in Hoare's Communicating Sequential Processes (CSP), it can also be seen as a type-safe generalization of Unix pipes.
 
 ### Goroutines
 
