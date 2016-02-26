@@ -29,6 +29,7 @@ But as a high-level approach, using channels to control access makes it easier t
 但是作為一個高階的方法，使用 channel 來控制存取更容易達到撰寫清楚且正確的程式。
 
 One way to think about this model is to consider a typical single-threaded program running on one CPU.
+一個去思考這個模型的方式是去思考一個典型的單執行緒程式在一個CPU上執行。
 It has no need for synchronization primitives.
 Now run another such instance; it too needs no synchronization.
 Now let those two communicate; if the communication is the synchronizer, there's still no need for other synchronization.
