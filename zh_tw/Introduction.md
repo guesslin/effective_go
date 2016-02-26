@@ -16,7 +16,10 @@ satisfactory result—Java programs are written in Java, not Go.
 
 On the
 other hand, thinking about the problem from a Go perspective could
-produce a successful but quite different program. In other words, to
+produce a successful but quite different program.
+>`另一方面，以 Go 思維來解決問題、撰寫程式，將可寫出成功且與眾不同的程式。`
+
+In other words, to
 write Go well, it's important to understand its properties and idioms.
 It's also important to know the established conventions for programming
 in Go, such as naming, formatting, program construction, and so on, so
