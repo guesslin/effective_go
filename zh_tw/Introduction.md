@@ -21,6 +21,8 @@ produce a successful but quite different program.
 
 In other words, to
 write Go well, it's important to understand its properties and idioms.
+>`換句話說，想寫好 Go 程式，了解它的特性與慣用語法是重要的。`
+
 It's also important to know the established conventions for programming
 in Go, such as naming, formatting, program construction, and so on, so
 that programs you write will be easy for other Go programmers to
