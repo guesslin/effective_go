@@ -28,8 +28,10 @@ such as naming, formatting, program construction, and so on, so that programs
 you write will be easy for other Go programmers to understand.
 >`對於 Go 程式中所使用的慣例也應當瞭解，例如：命名、格式、程式架構等。如此才能令其他 Go 開發者易讀。`
 
-This document gives tips for writing clear, idiomatic Go code. It
-augments the [language specification](/ref/spec), the [Tour of
+This document gives tips for writing clear, idiomatic Go code.
+>`此份文件將提供撰秘訣，讓開發者可以寫出清楚、道地的 Go 程式碼。`
+
+It augments the [language specification](/ref/spec), the [Tour of
 Go](//tour.golang.org/), and [How to Write Go Code](/doc/code.html), all
 of which you should read first.
 
