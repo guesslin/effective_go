@@ -34,6 +34,7 @@ This document gives tips for writing clear, idiomatic Go code.
 It augments the [language specification](/ref/spec), the [Tour of
 Go](//tour.golang.org/), and [How to Write Go Code](/doc/code.html), all
 of which you should read first.
+>`此文件涵蓋語言規範、Go 語言導覽以及如何撰寫 Go 程式，這些都是應該先讀的文章。`
 
 ### Examples
 
