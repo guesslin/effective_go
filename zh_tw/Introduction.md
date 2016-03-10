@@ -39,7 +39,10 @@ of which you should read first.
 ### Examples
 
 The [Go package sources](/src/) are intended to serve not only as the
-core library but also as examples of how to use the language. Moreover,
+core library but also as examples of how to use the language.
+>`Go package source 不僅是核心函式庫，且目的在於提供函式庫使用之範例。`
+
+Moreover,
 many of the packages contain working, self-contained executable examples
 you can run directly from the [golang.org](//golang.org) web site, such
 as [this one](//golang.org/pkg/strings/#example_Map) (if necessary,
