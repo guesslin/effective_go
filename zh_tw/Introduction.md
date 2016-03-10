@@ -37,6 +37,7 @@ of which you should read first.
 >`此文件涵蓋語言規範、Go 語言導覽以及如何撰寫 Go 程式，這些都是應該先讀的文章。`
 
 ### Examples
+>`範例`
 
 The [Go package sources](/src/) are intended to serve not only as the
 core library but also as examples of how to use the language.
