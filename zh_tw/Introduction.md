@@ -54,3 +54,4 @@ If you have a question about
 how to approach a problem or how something might be implemented, the
 documentation, code and examples in the library can provide answers,
 ideas and background.
+>`若對於如何解決問題或該怎麼實作某功能，在函式庫中的文件、程式碼及範例都可提供答案、想法與背景知識介紹。`
