@@ -47,7 +47,10 @@ Moreover,
 many of the packages contain working, self-contained executable examples
 you can run directly from the [golang.org](//golang.org) web site, such
 as [this one](//golang.org/pkg/strings/#example_Map) (if necessary,
-click on the word "Example" to open it up). If you have a question about
+click on the word "Example" to open it up).
+>`此外，許多 package 包含了 working, self-contained 的可執行範例，這些範例可直接在 golang.org 網站上運行，例如[這個](必要時，點選 "Example" 將它打開。)`
+
+If you have a question about
 how to approach a problem or how something might be implemented, the
 documentation, code and examples in the library can provide answers,
 ideas and background.
